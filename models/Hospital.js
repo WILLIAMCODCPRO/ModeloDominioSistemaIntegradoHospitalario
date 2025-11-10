@@ -1,10 +1,11 @@
 class Hospital {
     constructor(nombre) {
         this.nombre = nombre;
+        
     }
 
-    emplear(){
-        console.log(`${this.nombre} empleo a `);
+    emplear(persona) {
+        console.log(`${this.nombre} empleo a ${persona.nombre}`);
     }
 }
 
