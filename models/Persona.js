@@ -1,6 +1,8 @@
 class Persona {
-    constructor(nombre) {
+    constructor(nombre, direccion, apellidos) {
         this.nombre = nombre;
+        this.apellidos = apellidos;
+        this.direccion = direccion;
     }
 
     trabajar(Hospital) {
