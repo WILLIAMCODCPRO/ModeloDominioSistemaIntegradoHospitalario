@@ -9,10 +9,6 @@ class Persona {
     get nombreCompleto() {
         return `${this.nombre} ${this.segundoNombre} ${this.apellidos}`;
     }
-
-    trabajar(Hospital) {
-        console.log(`${this.nombre} trabaja en ${Hospital.nombre}`);
-    }
 }
 
 module.exports = Persona;
